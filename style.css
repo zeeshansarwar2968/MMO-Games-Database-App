@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body{
+    background-color: #29243b !important;
+    width:100vw;
+    height:100vh;
+}
+
+/* Main container styling */
+.contP{
+    width:100vw;
+    background-color: #1d1929 !important;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column ;
+    color: #7c6f6f !important;
+    padding:0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin:0;
+}
+
+.contP hr{
+    border: 1px solid #7c6f6f;
+    width:100%;
+    margin:0;
+}
+
+
+.contP a img{
+    position: relative;
+    left:1.2%;
+    /* display: inline; */
+}
+
+/* Styling for the cards to display game data */
+.card_profile{
+    align-items: center;
+    width:50%;
+}
+
+.cardMain{
+    width:100vw;
+    display:grid;
+     /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));; */
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 4vw;
+    row-gap: 7vh;
+    grid-auto-flow: row;
+    z-index: 1;
+}
+
+.cardChild{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: -1.5rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    padding:auto;
+    background-color: #1e1b25 !important;
+    color: rgb(168, 160, 160) !important;
+   
+}
+
+.card-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:auto;
+}
+
+.card-body a{
+    display:block;
+    background-color:#302a3b;
+    margin-top: 5px;
+    border:  0;
+
+}
